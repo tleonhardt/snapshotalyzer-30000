@@ -19,5 +19,9 @@ First, install [pipenv](https://github.com/pypa/pipenv). Then:
 
 ```
 pipenv install
-pipenv run shotty/shotty.py
+pipenv run shotty/shotty.py <command> [-project=PROJECT]
 ```
+
+where:
+* **command** is list, start, or stop
+* **projecct** is optional
